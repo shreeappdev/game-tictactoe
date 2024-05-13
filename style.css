@@ -1,0 +1,103 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+  
+    background-color: #135D66;
+    color:#fff;
+    margin:20px;
+    
+}
+.container{
+  
+    margin:0 auto;
+    text-align: center;
+
+}
+h1{
+    margin:20px;
+    padding:5px;
+    justify-content: center;
+}
+.game-area{
+   margin: 20px;
+}
+.game{
+    width: 300px;
+	height: 300px;
+	margin: 0 auto;
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    border-radius: 10px;      
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+.box{
+  border: 6px solid #2c3e50;
+  border-radius: 2px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.resetbutton{
+    height:50px;
+    margin-top:5px;
+    width:100px;
+    background-color: #fff;
+    color:#135D66;
+}
+
+.message-container {
+    padding:5px;
+    color:#fff;
+    font-size: 20px;
+    background-color: #fff;
+    color:#135D66;
+    width:200px;
+    margin: 0 auto;
+  
+}
+
+
+
+.hide{
+   display:none;
+}
+.nameForm{
+
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    margin:20px;
+
+}
+.nameForm input {
+  
+    height: 30px;
+    width: 150px;
+    border:none;
+    padding:2px;
+   
+
+}
+.nameForm button{
+    height: 35px;
+    width: 100px;
+    border-radius: 3px;
+    color:#fff;
+    background-color: #e6d743;
+    border:none;
+    padding:2px;
+   
+}
